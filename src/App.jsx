@@ -4,6 +4,7 @@ import Menu from './Component/Shared/Menu'
 import Cuerpo from './Component/Shared/Cuerpo'
 import Card from './Component/Shared/Card'
 import Comida1 from './Component/Img/comida1.jpg'
+import Cuerpo1 from './Component/Shared/Cuerpo1'
 function App() {
   
 
@@ -24,7 +25,7 @@ function App() {
       <Card img={Comida1} nombre="Creamy Vegan Broccoli Cheddar Soup" boton="New Recipes"/>
       <Card img={Comida1} nombre="Creamy Vegan Broccoli Cheddar Soup" boton="New Recipes"/>
     </div>
-
+    <Cuerpo1 />
     </>
   )
 }

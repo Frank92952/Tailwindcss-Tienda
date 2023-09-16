@@ -57,15 +57,15 @@ function Sidebar() {
               </button>
             </div>
             <div className='' >
-            <div className='text-[50px] transform rotate-[-5deg] ml-16  text-font max-sm:text-[30px] max-sm:ml-16 max-lg:ml-24 xl:-ml-40'>
+            <div className='text-[50px] transform rotate-[-5deg] -ml-4  text-font max-sm:text-[30px] max-sm:ml-16 max-lg:ml-28 xl:-ml-40 '>
               <a href='' className='font-serif  text-[#2B2B2B] '>Minimalist</a>
             </div> 
-            <div className='text-[50px] transform rotate-[-5deg] ml-16 -mt-8 text-center  max-sm:text-[30px] max-sm:-mt-5 max-lg:ml-36 max-sm:ml-20 xl:-ml-40'>
+            <div className='text-[50px] transform rotate-[-5deg] -ml-4 -mt-8 text-center  max-sm:text-[30px] max-sm:-mt-5 max-lg:ml-32 max-sm:ml-20 xl:-ml-44'>
               <a href='' className='font-serif text-[#2B2B2B]'>Baker</a>
             </div>
             </div>
 
-            <div className='lg:hidden max-lg:ml-16 max-sm:ml-10 '>
+            <div className='lg:hidden max-lg:ml-12 max-sm:ml-10 '>
             <RiSearchLine className='h-12 w-12 mt-8 ml-10 max-sm:h-9 max-sm:mt-3 max-sm:ml-5' />
             </div> 
             

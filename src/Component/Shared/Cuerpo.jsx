@@ -4,7 +4,7 @@ import {RiArrowRightLine } from "react-icons/ri";
 function Cuerpo() {
   return (
     <div>
-        <div className='grid grid-cols-8  pt-8 items-center max-lg:grid-cols-1  '>
+        <div className='grid grid-cols-8  pt-8 items-center max-lg:grid-cols-1 '>
             <div className='col-span-1 lg:hidden' >
             
             </div>
@@ -30,7 +30,7 @@ function Cuerpo() {
               </div>
 
             </div>
-            <div className='col-span-2 max-sm:mt-4 ml-52 max-lg:ml-8'>
+            <div className='col-span-2 max-sm:mt-4  max-lg:ml-2 ml-56 xl:ml-80 '>
               <h1 className='text-center text-[35px] font-bold'>RECIPES</h1>
             </div>
             <div className='col-span-2  ml-80 w-60'>
