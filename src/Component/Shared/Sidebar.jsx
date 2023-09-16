@@ -4,9 +4,9 @@ import Menu from './Menu';
 function Sidebar() {
   const [showMenu, setShowMenu]=useState(false);
   const toggleMenu = () => {
-    setShowMenu(!showMenu);
-
+    setShowMenu(!showMenu); 
   };
+  
   return (
     <div >
         <div className='w-full bg-red-200 h-12 items-center grid grid-cols-6 max-lg:h-14     '>
@@ -19,7 +19,7 @@ function Sidebar() {
            
             </div>
             {/*Menu */}
-            <div className='grid max-sm:ml-24 max-lg:ml-72'>
+            <div className='grid max-sm:ml-24 max-lg:ml-72 ml-3'>
             <div className='flex xl:-ml-24   '>
             <RiFacebookFill className='h-6 w-6 ml-2 max-sm:ml-3 max-sm:h-8 max-sm:w-8 max-lg:h-8 max-lg:w-8 max-lg:ml-3' /> 
             <RiInstagramLine className='h-6 w-6 ml-2 max-sm:ml-3 max-sm:h-8 max-sm:w-8 max-lg:h-8 max-lg:w-8 max-lg:ml-3'/>
