@@ -25,6 +25,7 @@ function App() {
       <Card img={Comida1} nombre="Creamy Vegan Broccoli Cheddar Soup" boton="New Recipes"/>
       <Card img={Comida1} nombre="Creamy Vegan Broccoli Cheddar Soup" boton="New Recipes"/>
     </div>
+    
     <Cuerpo1 />
     </>
   )
