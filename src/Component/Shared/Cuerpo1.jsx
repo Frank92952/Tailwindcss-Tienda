@@ -37,7 +37,7 @@ function Cuerpo1() {
   };
   return (
     <div>
-    <div className='pl-7 pr-5 pb-6'>
+    <div className='pl-7 pr-5 pb-6 xl:pl-[185px] xl:pr-[180px]'>
         <div className='grid justify-center mt-5 pb-10 ' >
             <button className='flex items-center  text-orange-500 max-lg:hidden'>SHOW ME EVERYTHING<RiArrowRightLine className='w-8 h-8 ml-5 text-black' /></button>
 
@@ -45,8 +45,8 @@ function Cuerpo1() {
          <div className='grid grid-cols-2 text-center '>
             <div className='bg-[#FBF8F3] pt-20 pb-20 p-2'>
                 <h2 className='text-[20px] tracking-[10px]'>PICK   OF   THE   WEEK</h2>
-                <h1 className='text-[47px] tracking-[-2px] font-bold'>Chessy Vegan pizza  </h1>
-                <h1 className='text-[47px] tracking-[-2px] -mt-6 font-bold text-serif'>Beans (30 Minutes!)</h1>
+                <h1 className='text-[47px] tracking-[-2px] font-bold max-lg:text-[37px]'>Chessy Vegan pizza  </h1>
+                <h1 className='text-[47px] tracking-[-2px] -mt-6 font-bold text-serif max-lg:text-[40px]  '>Beans (30 Minutes!)</h1>
                 <p className='text-[15px] tracking-[1px] mt-5'>Savory, saucy, and CHEESY white beans that taste like pizza! An easy, 
                     comforting, plant-based entrée with just 10 ingredients and 30 minutes required!</p>
              <div className='mt-8'>
@@ -55,25 +55,25 @@ function Cuerpo1() {
                 
             </div>
             <div className='bg-red-200 '>
-                <a href='#' ><img src={Comida2} className='h-[500px] w-[550px]' /> </a>
+                <a href='#' ><img src={Comida2} className='h-[500px] w-[550px] xl:w-full' /> </a>
             </div>
          </div>
     </div>
-    <div className='pt-6 pb-12'>
-    <div className='grid grid-cols-6  bg-[#003811] p-6 items-center'>
+    <div className='pt-6 pb-12 xl:pl-[185px] xl:pr-[180px]'>
+    <div className='grid grid-cols-6  bg-[#003811] p-6 items-center max-lg:grid-cols-1'>
 
-        <div className='col-span-1  text-2xl text-[#FFDED6] font-bold'>
+        <div className='col-span-1  text-2xl text-[#FFDED6] font-bold max-lg:col-span-2 max-lg:text-center' >
            <h1>*Want more deliciousness?</h1>
         </div>
-        <div className='col-span-2 text-white text-[20px] ml-4 '>
+        <div className='col-span-2 text-white text-[20px] ml-4 max-lg:text-center max-lg:mt-5 max-lg:ml-8 '>
             <p>Subscribe here and we’ll send you an email as new recipes are published AND our fan favorites ebook!</p>
         </div>
-        <div className='col-span-3  '>
-        <form className='flex h-14 ml-12  '>
+        <div className='col-span-3 max-lg:mt-8 '>
+        <form className='flex h-14 ml-12   '>
             <input
               type='email'
               placeholder={placeholder}
-              className={`w-[390px] placeholder:tracking-[5px] placeholder:text-[12px] placeholder:text-black font-serif font-bold  pl-5 outline-none`}
+              className={`w-[390px] placeholder:tracking-[5px] placeholder:text-[12px] placeholder:text-black font-serif font-bold  pl-5 outline-none max-lg:w-[590px]`}
               onClick={handleInputClick}
               onBlur={handleInputBlur}
             />
@@ -82,10 +82,10 @@ function Cuerpo1() {
         </div>
     </div>
     </div>
-    <div className='bg-[#FBF8F3]  '>
+    <div className='bg-[#FBF8F3] '>
         
-        <div className='grid grid-cols-8 pt-16 pr-5 pl-7 justify-center '>
-            <div className='col-span-6 pr-16'>
+        <div className='grid grid-cols-8 pt-16 pr-5 pl-7 justify-center xl:pl-[185px] xl:pr-[180px] max-lg:grid-cols-1'>
+            <div className='col-span-6 pr-16 max-lg:pr-2'>
             <form className='flex items-center'>
             <input
               type='email'
@@ -98,7 +98,7 @@ function Cuerpo1() {
           </form>
           <div className=' grid justify-center  text-center bg-[#FFFFFF] mt-8 pb-8 pt-8 pl-28 pr-28'>
             <h1 className='text-2xl font-bold'>RECIPEY KEY</h1>
-            <div className='grid grid-cols-4 gap-3 max-lg:gap-3  pt-3 max-sm:gap-2 items-center '>
+            <div className='grid grid-cols-4 gap-3  pt-3 max-sm:gap-2 items-center max-lg:grid-cols-5 max-xl:-ml-24'>
                 <div>
                     <button className='bg-[#f5baaf]  rounded-full w-8 h-8  max-lg:w-6  max-lg:h-7 font-bold hover:bg-[#f19d8b]  '>
                     GF
@@ -119,7 +119,7 @@ function Cuerpo1() {
                     DF
                     </button><a href='' className='ml-2 hover:underline'>Dairy-Free</a>
                 </div>
-                <div className=' w-60 ml-32 mt-2  '>
+                <div className=' w-60 ml-32 lg:mt-2  max-lg:-ml-5'>
                     <button className='bg-[#111111]  rounded-full w-8 h-8 max-lg:w-6  max-lg:h-7 text-white font-bold'>
                     NS
                     </button><a href='' className='ml-2 hover:underline'>Naturally Sweetend</a>
@@ -249,12 +249,12 @@ function Cuerpo1() {
                  
             </div>
         </div>
-        <div className='pl-7 pr-5 pt-10 pb-10 max-lg:pl-4 max-lg:pr-4 max-sm:pl-4 max-sm:pr-3  xl:pl-48 xl:pr-48'>
+        <div className='pl-6 pr-5 pt-10 pb-10 max-lg:pl-4 max-lg:pr-4 max-sm:pl-4 max-sm:pr-3  xl:pl-[185px] xl:pr-48'>
           <hr className='border-t-1 border-[#2B2B2B]' />
           
         </div>
-        <div className='pl-7 pr-5 pb-8'>
-          <div className='flex justify-between items-center '>
+        <div className='pl-7 pr-5 pb-8 '>
+          <div className='flex justify-between items-center xl:pl-[160px] xl:pr-40'>
             <h1 className='text-[30px] font-bold'>RECIPE ROUND-UPS</h1>
             
             <button className='flex items-center hover:text-orange-500  font-bold text-black max-lg:hidden'>SHOW ME EVERYTHING<RiArrowRightLine className='w-8 h-6' /></button>
@@ -398,11 +398,13 @@ function Cuerpo1() {
       </div>
     </div>
     <div className=' bg-[#FBF8F3]'>
-      <div className='pl-7 pr-5'>
-        <div className='grid grid-cols-2 mt-16 '>
-          <div className='bg-red-200  text-center pl-5 pr-5  '>
+      <div className='pl-7 pr-5 xl:pl-[185px] xl:pr-48'>
+        <div className='grid grid-cols-2 mt-16 max-lg:grid-cols-1 '>
+          <div className='bg-red-200  text-center pl-5 pr-5 xl:flex xl:gap-5   '>
+            
           <img src={Fondo2} className='h-72 justify-center  mx-auto mt-10'/>
-          <h1 className='text-[35px] tracking-[7px] mb-5  '>Want More Deliciousness?</h1>
+          <div className=' '>
+          <h1 className='text-[35px] tracking-[7px] mb-5 xl:text-[20px] xl:mt-6'>Want More Deliciousness?</h1>
           <strong className='mt-10'>Subscribe here and we'll send you an email as new recipes are published  </strong>
           <p>As a thank you, we'd also love to send you our fan favorites ebook!</p>
           <form className='mt-5 mb-5'>
@@ -416,12 +418,14 @@ function Cuerpo1() {
             
           </form>
           <button className='w-full bg-white mb-5 h-12 font-bold hover:bg-[#FFB5A3]'>GET MY EBOOK!</button>
+          </div>
+
 
           </div>
           <div className='pl-12 mt-10'>
-            <div className='flex tracking-[3px]'>
+            <div className='flex tracking-[3px] '>
               <p>FIND US ELSEWHERE </p>
-              <strong className='ml-5'>@minimalistbaker</strong>
+              <strong className='ml-5 '>@minimalistbaker</strong>
             </div>
             <div className='grid grid-cols-3 gap-4 mt-20 '>
               <div>
@@ -452,7 +456,7 @@ function Cuerpo1() {
         <div className='grid grid-cols-3 mt-10  pb-10'>
           <div className='flex items-center'>
             <h1 className='text-[20px] tracking-[5px]'>FIND US</h1>
-            <div className='flex xl:-ml-24   '>
+            <div className='flex    '>
             <RiFacebookFill className='h-6 w-6 ml-2 max-sm:ml-3 max-sm:h-8 max-sm:w-8 max-lg:h-8 max-lg:w-8 max-lg:ml-3' /> 
             <RiInstagramLine className='h-6 w-6 ml-2 max-sm:ml-3 max-sm:h-8 max-sm:w-8 max-lg:h-8 max-lg:w-8 max-lg:ml-3'/>
             <RiPinterestLine className='h-6 w-6 ml-2 max-sm:ml-3 max-sm:h-8 max-sm:w-8 max-lg:h-8 max-lg:w-8 max-lg:ml-3' />
