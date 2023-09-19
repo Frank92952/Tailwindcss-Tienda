@@ -36,32 +36,29 @@ function Cuerpo1() {
     }
   };
   return (
-    <div>
-    <div className='pl-7 pr-5 pb-6 xl:pl-[185px] xl:pr-[180px max-sm:pr-4 max-sm:pl-4'>
-        <div className='grid justify-center mt-5 pb-10 ' >
-            <button className='flex items-center  text-orange-500 '>SHOW ME EVERYTHING<RiArrowRightLine className='w-8 h-8 ml-5 text-black' /></button>
-
-        </div>
-         <div className='grid grid-cols-2 text-center max-sm:grid-cols-1 '>
-            <div className='bg-[#FBF8F3] pt-20 pb-20 p-2 '>
-                <h2 className='text-[20px] tracking-[10px]'>PICK   OF   THE   WEEK</h2>
-                <h1 className='text-[47px] tracking-[-2px] font-bold max-lg:text-[37px]'>Chessy Vegan pizza  </h1>
-                <h1 className='text-[47px] tracking-[-2px] -mt-6 font-bold text-serif max-lg:text-[40px]  '>Beans (30 Minutes!)</h1>
-                <p className='text-[15px] tracking-[1px] mt-5'>Savory, saucy, and CHEESY white beans that taste like pizza! An easy, 
+  <div>
+    <div className='pl-7 pr-5 pb-6 xl:pl-[185px] xl:pr-[180px] max-sm:pr-4 max-sm:pl-4'>
+      <div className='grid justify-center mt-5 pb-10 ' >
+          <button className='flex items-center  text-orange-500 '>SHOW ME EVERYTHING<RiArrowRightLine className='w-8 h-8 ml-5 text-black' /></button>
+      </div>
+      <div className='grid grid-cols-2 text-center max-sm:grid-cols-1 '>
+          <div className='bg-[#FBF8F3] pt-20 pb-20 p-2 '>
+              <h2 className='text-[20px] tracking-[10px]'>PICK   OF   THE   WEEK</h2>
+              <h1 className='text-[47px] tracking-[-2px] font-bold max-lg:text-[37px]'>Chessy Vegan pizza  </h1>
+              <h1 className='text-[47px] tracking-[-2px] -mt-6 font-bold text-serif max-lg:text-[40px]  '>Beans (30 Minutes!)</h1>
+              <p className='text-[15px] tracking-[1px] mt-5'>Savory, saucy, and CHEESY white beans that taste like pizza! An easy, 
                     comforting, plant-based entrée with just 10 ingredients and 30 minutes required!</p>
-             <div className='mt-8'>
-             <button className='border-[3px] text-xl tracking-[3px] font-bold border-black w-44 h-14 hover:bg-red-200 hover:border-red-200'>View Recipe</button>
-            </div>   
-                
-            </div>
-            <div className='bg-red-200 '>
-                <a href='#' ><img src={Comida2} className='h-[500px] w-[550px] xl:w-full' /> </a>
-            </div>
-         </div>
+            <div className='mt-8'>
+              <button className='border-[3px] text-xl tracking-[3px] font-bold border-black w-44 h-14 hover:bg-red-200 hover:border-red-200'>View Recipe</button>
+            </div>     
+          </div>
+          <div className='bg-red-200 '>
+            <a href='#' ><img src={Comida2} className='h-[500px] w-[550px] xl:w-full' /> </a>
+          </div>
+      </div>
     </div>
     <div className='pt-6 pb-12 xl:pl-[185px] xl:pr-[180px]'>
-    <div className='grid grid-cols-6  bg-[#003811] p-6 items-center max-lg:grid-cols-1'>
-
+      <div className='grid grid-cols-6  bg-[#003811] p-6 items-center max-lg:grid-cols-1'>
         <div className='col-span-1  text-2xl text-[#FFDED6] font-bold max-lg:col-span-2 max-lg:text-center' >
            <h1>*Want more deliciousness?</h1>
         </div>
@@ -69,7 +66,7 @@ function Cuerpo1() {
             <p>Subscribe here and we’ll send you an email as new recipes are published AND our fan favorites ebook!</p>
         </div>
         <div className='col-span-3 max-lg:mt-8 '>
-        <form className='flex h-14 ml-12 max-sm:ml-3   '>
+          <form className='flex h-14 ml-12 max-sm:ml-3   '>
             <input
               type='email'
               placeholder={placeholder}
@@ -80,13 +77,12 @@ function Cuerpo1() {
             <button className='bg-red-200 w-[100px] font-bold hover:bg-[#FFB5A3] max-sm:w-[250px]'>SUBMIT</button>
           </form>
         </div>
-    </div>
+      </div>
     </div>
     <div className='bg-[#FBF8F3] '>
-        
-        <div className='grid grid-cols-8 pt-16 pr-5 pl-7 justify-center xl:pl-[185px] xl:pr-[180px] max-lg:grid-cols-1 max-sm:pl-4 max-sm:pr-4'>
-            <div className='col-span-6 pr-16 max-lg:pr-2 max-sm:pr-0'>
-            <form className='flex items-center'>
+      <div className='grid grid-cols-8 pt-16 pr-5 pl-7 justify-center xl:pl-[185px] xl:pr-[180px] max-lg:grid-cols-1 max-sm:pl-4 max-sm:pr-4'>
+        <div className='col-span-6 pr-16 max-lg:pr-2 max-sm:pr-0'>
+          <form className='flex items-center'>
             <input
               type='email'
               placeholder={placeholder1}
@@ -124,27 +120,25 @@ function Cuerpo1() {
                     NS
                     </button><a href='' className='ml-2 hover:underline'>Naturally Sweetend</a>
                 </div>
-
-                </div>
+            </div>
           </div>
-            <div className='mt-12 mb-12'>
-                <hr className='border-t-2 border-[#2B2B2B]' />
-        
+          <div className='mt-12 mb-12'>
+            <hr className='border-t-2 border-[#2B2B2B]' />
+          </div>
+          <div className='flex items-center gap-60 max-sm:grid max-sm:grid-cols-1 max-sm:text-center max-sm:gap-2 '>
+            <p className='text-[28px] font-bold w-96 max-sm:text-[25px]  max-sm:w-full'>RECENT READER FAVORITES</p>
+            <div className='flex max-sm:justify-center max-sm:mx-auto '>
+              <RiStarFill className='h-7 w-7 text-[#D56638]'/>
+              <RiStarFill className='h-7 w-7 text-[#D56638]' />
+              <RiStarFill className='h-7 w-7 text-[#D56638]'/>
+              <RiStarFill className='h-7 w-7 text-[#D56638]'/>
+              <RiStarFill className='h-7 w-7 text-[#D56638]'/>
             </div>
-            <div className='flex items-center gap-60 max-sm:grid max-sm:grid-cols-1 max-sm:text-center max-sm:gap-2 '>
-                <p className='text-[28px] font-bold w-96 max-sm:text-[25px]  max-sm:w-full'>RECENT READER FAVORITES</p>
-                <div className='flex max-sm:justify-center max-sm:mx-auto '>
-                <RiStarFill className='h-7 w-7 text-[#D56638]'/>
-                <RiStarFill className='h-7 w-7 text-[#D56638]' />
-                <RiStarFill className='h-7 w-7 text-[#D56638]'/>
-                <RiStarFill className='h-7 w-7 text-[#D56638]'/>
-                <RiStarFill className='h-7 w-7 text-[#D56638]'/>
-                </div>
-            </div>
-            <div className='grid grid-cols-1  '>
-              <div className='flex items-center group bg-[#FFFFFF] hover:bg-[#003811] hover:text-white mt-12 mb-5 max-sm:grid max-sm:grid-cols-1'>
+          </div>
+          <div className='grid grid-cols-1  '>
+            <div className='flex items-center group bg-[#FFFFFF] hover:bg-[#003811] hover:text-white mt-12 mb-5 max-sm:grid max-sm:grid-cols-1'>
               <a href='#' ><img src={Comida3} className='h-[140px] w-[140px] max-sm:p-4 max-sm:w-full max-sm:h-[320px] ' /> </a>
-                <p className='rounded-full rounded-r-lg h-6 w-6 -ml-6 bg-[#FFFFFF]  group-hover:bg-[#003811] max-sm:hidden'></p>
+              <p className='rounded-full rounded-r-lg h-6 w-6 -ml-6 bg-[#FFFFFF]  group-hover:bg-[#003811] max-sm:hidden'></p>
               <div className='flex items-center gap-8 ml-6 max-sm:grid max-sm:grid-cols-1 max-sm:justify-center max-sm:mx-auto max-sm:text-center max-sm:gap-4 max-sm:-mt-3'>
                 <h1 className='text-[30px] font-bold '>01</h1>
                 <h1 className='text-[23px] w-48  max-sm:w-52 max-sm:ml-4 font-serif'>BBQ Sweet Potato Chickpea Tacos</h1>
@@ -166,15 +160,14 @@ function Cuerpo1() {
                     </button>
                 </div>
               </div>
-              </div>
-              <div className='flex items-center  group hover:bg-[#003811] hover:text-white bg-[#FFFFFF] mb-5 max-sm:grid max-sm:grid-cols-1 ' >
+            </div>
+            <div className='flex items-center  group hover:bg-[#003811] hover:text-white bg-[#FFFFFF] mb-5 max-sm:grid max-sm:grid-cols-1 ' >
               <a href='#' ><img src={Comida3} className='h-[140px] w-[140px] max-sm:p-4 max-sm:w-full max-sm:h-[320px]' /> </a>
-                <p className='rounded-full rounded-r-lg h-6 w-6 -ml-6 bg-[#FFFFFF]  group-hover:bg-[#003811] max-sm:hidden '></p>
+              <p className='rounded-full rounded-r-lg h-6 w-6 -ml-6 bg-[#FFFFFF]  group-hover:bg-[#003811] max-sm:hidden '></p>
               <div className='flex items-center gap-8 ml-6 max-sm:grid max-sm:grid-cols-1 max-sm:justify-center max-sm:mx-auto max-sm:text-center max-sm:gap-4 max-sm:-mt-3'>
                 <h1 className='text-[30px]  font-bold'>02</h1>
                 <h1 className='text-[23px]  w-48 max-sm:w-52 max-sm:ml-4 font-serif'>No-Bake Peanut Butter Cup Bars</h1>
                 <div className='flex gap-3 max-lg:gap-3 ml-[86px] max-sm:ml-12  max-sm:gap-2 max-sm:mb-8 '>
-
                     <button className='bg-[#F31A0A]  rounded-full w-8 h-8 max-lg:w-6  max-lg:h-7 text-white font-bold hover:bg-[#d83125]'>
                     VG
                     </button>
@@ -189,15 +182,14 @@ function Cuerpo1() {
                     </button>
                 </div>
               </div>
-              </div>
-              <div className='flex items-center group hover:bg-[#003811] hover:text-white bg-[#FFFFFF] mb-5  max-sm:grid max-sm:grid-cols-1'>
+            </div>
+            <div className='flex items-center group hover:bg-[#003811] hover:text-white bg-[#FFFFFF] mb-5  max-sm:grid max-sm:grid-cols-1'>
               <a href='#' ><img src={Comida3} className='h-[140px] w-[140px] max-sm:p-4 max-sm:w-full max-sm:h-[320px]' /> </a>
-                <p className='rounded-full rounded-r-lg h-6 w-6 -ml-6 bg-[#FFFFFF]  group-hover:bg-[#003811] max-sm:hidden'></p>
+              <p className='rounded-full rounded-r-lg h-6 w-6 -ml-6 bg-[#FFFFFF]  group-hover:bg-[#003811] max-sm:hidden'></p>
               <div className='flex items-center gap-8 ml-6 max-sm:grid max-sm:grid-cols-1 max-sm:justify-center max-sm:mx-auto max-sm:text-center max-sm:gap-4 max-sm:-mt-3'>
                 <h1 className='text-[30px] font-bold'>03</h1>
                 <h1 className='text-[23px] w-48  max-sm:w-52 max-sm:ml-4  font-serif'>Plum Upside Down Cake (Vegan + GF)</h1>
                 <div className='flex gap-3 max-lg:gap-3 ml-[86px] max-sm:ml-14  max-sm:gap-2 max-sm:mb-8 '>
-  
                     <button className='bg-[#F31A0A]  rounded-full w-8 h-8 max-lg:w-6  max-lg:h-7 text-white font-bold hover:bg-[#d83125]'>
                     VG
                     </button>
@@ -212,10 +204,10 @@ function Cuerpo1() {
                     </button>
                 </div>
               </div>
-              </div>
-              <div className='flex items-center group hover:bg-[#003811] hover:text-white bg-[#FFFFFF] mb-5 max-sm:grid max-sm:grid-cols-1'>
+            </div>
+            <div className='flex items-center group hover:bg-[#003811] hover:text-white bg-[#FFFFFF] mb-5 max-sm:grid max-sm:grid-cols-1'>
               <a href='#' ><img src={Comida3} className='h-[140px] w-[140px] max-sm:p-4 max-sm:w-full max-sm:h-[320px]' /> </a>
-                <p className='rounded-full rounded-r-lg h-6 w-6 -ml-6 bg-[#FFFFFF]  group-hover:bg-[#003811] max-sm:hidden '></p>
+              <p className='rounded-full rounded-r-lg h-6 w-6 -ml-6 bg-[#FFFFFF]  group-hover:bg-[#003811] max-sm:hidden '></p>
               <div className='flex items-center gap-8 ml-6 max-sm:grid max-sm:grid-cols-1 max-sm:justify-center max-sm:mx-auto max-sm:text-center max-sm:gap-4 max-sm:-mt-3'>
                 <h1 className='text-[30px] max-sm:w-52 max-sm:ml-4 font-bold'>04</h1>
                 <h1 className='text-[23px] w-48  max-sm:w-52 max-sm:ml-4  font-serif'>Easy Mediterranean-Inspired Nourish Bowls</h1>
@@ -237,43 +229,36 @@ function Cuerpo1() {
                     </button>
                 </div>
               </div>
-              </div>
-         
             </div>
-        </div>
-            <div className='col-span-2 '>
-                <div className='bg-[#F1F1F1] h-[200px]'>
-                </div>
-                 
-            </div>
-        </div>
-        <div className='pl-6 pr-5 pt-10 pb-10 max-lg:pl-4 max-lg:pr-4 max-sm:pl-4 max-sm:pr-3  xl:pl-[185px] xl:pr-48'>
-          <hr className='border-t-1 border-[#2B2B2B]' />
-          
-        </div>
-        <div className='pl-7 pr-5 pb-8 max-sm:pl-4 max-sm:pr-3'>
-          <div className='flex justify-between items-center xl:pl-[160px] xl:pr-40'>
-            <h1 className='text-[30px] font-bold'>RECIPE ROUND-UPS</h1>
-            
-            <button className='flex items-center hover:text-orange-500  font-bold text-black max-sm:hidden '>SHOW ME EVERYTHING<RiArrowRightLine className='w-8 h-6' /></button>
-            
           </div>
-          <div className='grid grid-cols-4 pb-6 pt-6   gap-5 max-lg:grid-cols-4 max-sm:grid-cols-1 xl:ml-40 xl:mr-40'>
-            <div className=' flex flex-col items-center '> 
-                <a href=""><img src={Comida4} /></a>
-                <div className='flex gap-3 max-lg:gap-3  pt-3 max-sm:gap-2'>
-                    <button className='bg-[#f5baaf]  rounded-full w-8 h-8  max-lg:w-6  max-lg:h-7 font-bold hover:bg-[#f19d8b]  '>
-                    GF
-                    </button>
-                    <button className='bg-[#F31A0A]  rounded-full w-8 h-8 max-lg:w-6  max-lg:h-7 text-white font-bold hover:bg-[#d83125]'>
-                    VG
-                    </button>
-
-                </div>
-                <h1 className='text-[20px] mt-2 font-bold text-center'>25 Comforting Fall Dinner Ideas</h1>
-                
+        </div>
+        <div className='col-span-2 '>
+          <div className='bg-[#F1F1F1] h-[200px]'>
+          </div>        
+        </div>
+      </div>
+      <div className='pl-6 pr-5 pt-10 pb-10 max-lg:pl-4 max-lg:pr-4 max-sm:pl-4 max-sm:pr-3  xl:pl-[185px] xl:pr-48'>
+        <hr className='border-t-1 border-[#2B2B2B]' />  
+      </div>
+      <div className='pl-7 pr-5 pb-8 max-sm:pl-4 max-sm:pr-3'>
+        <div className='flex justify-between items-center xl:pl-[160px] xl:pr-40'>
+          <h1 className='text-[30px] font-bold'>RECIPE ROUND-UPS</h1>  
+          <button className='flex items-center hover:text-orange-500  font-bold text-black max-sm:hidden '>SHOW ME EVERYTHING<RiArrowRightLine className='w-8 h-6' /></button>  
+        </div>
+        <div className='grid grid-cols-4 pb-6 pt-6   gap-5 max-lg:grid-cols-4 max-sm:grid-cols-1 xl:ml-40 xl:mr-40'>
+          <div className=' flex flex-col items-center '> 
+            <a href=""><img src={Comida4} /></a>
+            <div className='flex gap-3 max-lg:gap-3  pt-3 max-sm:gap-2'>
+              <button className='bg-[#f5baaf]  rounded-full w-8 h-8  max-lg:w-6  max-lg:h-7 font-bold hover:bg-[#f19d8b]  '>
+                GF
+              </button>
+              <button className='bg-[#F31A0A]  rounded-full w-8 h-8 max-lg:w-6  max-lg:h-7 text-white font-bold hover:bg-[#d83125]'>
+                VG
+              </button>
             </div>
-            <div className=' flex flex-col items-center '> 
+              <h1 className='text-[20px] mt-2 font-bold text-center'>25 Comforting Fall Dinner Ideas</h1>   
+          </div>
+          <div className=' flex flex-col items-center '> 
                 <a href=""><img src={Comida4} /></a>
                 <div className='flex gap-3 max-lg:gap-3  pt-3 max-sm:gap-2'>
                     <button className='bg-[#f5baaf]  rounded-full w-8 h-8  max-lg:w-6  max-lg:h-7 font-bold hover:bg-[#f19d8b]  '>
@@ -288,8 +273,8 @@ function Cuerpo1() {
                 </div>
                 <h1 className='text-[20px] mt-2 font-bold text-center'>25 Cozy Drinks For Fall</h1>
                 
-            </div>
-            <div className=' flex flex-col items-center '> 
+          </div>
+          <div className=' flex flex-col items-center '> 
                 <a href=""><img src={Comida4} /></a>
                 <div className='flex gap-3 max-lg:gap-3  pt-3 max-sm:gap-2'>
                     <button className='bg-[#f5baaf]  rounded-full w-8 h-8  max-lg:w-6  max-lg:h-7 font-bold hover:bg-[#f19d8b]  '>
@@ -305,33 +290,28 @@ function Cuerpo1() {
                 </div>
                 <h1 className='text-[20px] mt-2 font-bold text-center'>Best Vegan Apple Desserts</h1>
                 
-            </div>
-            <div className=' flex flex-col items-center '> 
-                <a href=""><img src={Comida4} /></a>
-                <div className='flex gap-3 max-lg:gap-3  pt-3 max-sm:gap-2'>
-                    <button className='bg-[#f5baaf]  rounded-full w-8 h-8  max-lg:w-6  max-lg:h-7 font-bold hover:bg-[#f19d8b]  '>
-                    GF
-                    </button>
-                    <button className='bg-[#F31A0A]  rounded-full w-8 h-8 max-lg:w-6  max-lg:h-7 text-white font-bold hover:bg-[#d83125]'>
-                    VG
-                    </button>
-                    <button className='bg-[#B45026] rounded-full w-8 h-8 max-lg:w-6  max-lg:h-7 text-white font-bold'> 
-                    V
-                    </button>
-
-                </div>
-                <h1 className='text-[20px] mt-2 font-bold text-center'>EASY Make-Ahead Breakfasts (Plant-Based)</h1>
-                
-            </div>
-            
           </div>
-
+          <div className=' flex flex-col items-center '> 
+            <a href=""><img src={Comida4} /></a>
+            <div className='flex gap-3 max-lg:gap-3  pt-3 max-sm:gap-2'>
+              <button className='bg-[#f5baaf]  rounded-full w-8 h-8  max-lg:w-6  max-lg:h-7 font-bold hover:bg-[#f19d8b]  '>
+                 GF
+              </button>
+              <button className='bg-[#F31A0A]  rounded-full w-8 h-8 max-lg:w-6  max-lg:h-7 text-white font-bold hover:bg-[#d83125]'>
+                VG
+              </button>
+              <button className='bg-[#B45026] rounded-full w-8 h-8 max-lg:w-6  max-lg:h-7 text-white font-bold'> 
+                V
+              </button>
+            </div>
+              <h1 className='text-[20px] mt-2 font-bold text-center'>EASY Make-Ahead Breakfasts (Plant-Based)</h1>    
+          </div>  
         </div>
-       
+      </div>
     </div>
     <div className=' bg-[#FBF8F3] h-36 w-36 flex justify-center items-center mx-auto rounded-full -mt-20'>
-  <img src={Logo} className='w-14 h-14 mt-12 object-cover rounded-full' />
-</div>
+      <img src={Logo} className='w-14 h-14 mt-12 object-cover rounded-full' />
+    </div>
     <h1 className='text-center mt-4  text-[30px] font-bold'>Explore Recipes</h1>
     <div className='pl-7 pr-5'>
       <div className='grid grid-cols-4 pt-6 pb-6 max-lg:pb-1   gap-5 max-lg:grid-cols-2 max-sm:grid-cols-1 xl:ml-40 xl:mr-40  '>
@@ -346,37 +326,34 @@ function Cuerpo1() {
           <h1 className='text-[20px] mt-2 font-bold text-center hover:text-orange-500'>Magical Vegan Cashew Whipped Cream</h1>
         </div>
         <div className=' flex flex-col items-center '>  
-          
           <a href=""><img src={Comida4} /></a>
           <h1 className='text-[20px] mt-2 font-bold text-center hover:text-orange-500'>Gluten-Free Hamburger Buns (Vegan)</h1>   
         </div>
         <div className=' flex flex-col items-center '> 
-         
           <a href=""><img src={Comida4} /></a>
           <h1 className='text-[20px] mt-2 font-bold text-center hover:text-orange-500'>Best 1:1 Gluten-Free Flour Blend (Our Secret Recipe!)</h1>    
         </div>
         <div className=' flex flex-col items-center '> 
-         
           <a href=""><img src={Comida4} /></a>
           <h1 className='text-[20px] mt-2 font-bold text-center hover:text-orange-500'>The BEST Homemade Taco Seasoning</h1>        
         </div>
-            <div className=' flex flex-col items-center '> 
-                <a href=""><img src={Comida4} /></a>
-                <h1 className='text-[20px] mt-2 font-bold text-center hover:text-orange-500'>The BEST Homemade Taco Seasoning</h1>
-            </div>
-            <div className=' flex flex-col items-center '> 
-                <a href=""><img src={Comida4} /></a>
-                <h1 className='text-[20px] mt-2 font-bold text-center hover:text-orange-500'>The BEST Homemade Taco Seasoning</h1>
-            </div>
-            <div className=' flex flex-col items-center '> 
-                <a href=""><img src={Comida4} /></a>
-                <h1 className='text-[20px] mt-2 font-bold text-center hover:text-orange-500'>The BEST Homemade Taco Seasoning</h1>
-            </div>
-            <div className=' flex flex-col items-center '> 
-                <a href=""><img src={Comida4} /></a>
-                <h1 className='text-[20px] mt-2 font-bold text-center hover:text-orange-500'>The BEST Homemade Taco Seasoning</h1>
-            </div>
+        <div className=' flex flex-col items-center '> 
+          <a href=""><img src={Comida4} /></a>
+          <h1 className='text-[20px] mt-2 font-bold text-center hover:text-orange-500'>The BEST Homemade Taco Seasoning</h1>
         </div>
+        <div className=' flex flex-col items-center '> 
+          <a href=""><img src={Comida4} /></a>
+          <h1 className='text-[20px] mt-2 font-bold text-center hover:text-orange-500'>The BEST Homemade Taco Seasoning</h1>
+        </div>
+        <div className=' flex flex-col items-center '> 
+          <a href=""><img src={Comida4} /></a>
+          <h1 className='text-[20px] mt-2 font-bold text-center hover:text-orange-500'>The BEST Homemade Taco Seasoning</h1>
+        </div>
+        <div className=' flex flex-col items-center '> 
+          <a href=""><img src={Comida4} /></a>
+          <h1 className='text-[20px] mt-2 font-bold text-center hover:text-orange-500'>The BEST Homemade Taco Seasoning</h1>
+        </div>
+      </div>
     </div>
     <div className='flex justify-center pt-6 pb-14'>
       <button className='flex items-center  text-orange-500 '>GO TO ALL RECIPES<RiArrowRightLine className='w-8 h-8 ml-5 text-black' /></button>
@@ -384,15 +361,13 @@ function Cuerpo1() {
     <div className='relative  items-center justify-center'>
       <img src={Fondo1} className='max-lg:h-[550px]'/>
       <div className='absolute inset-0 flex items-center justify-center text-center  max-sm:p-8'>
-
         <div className='h-[340px] w-[500px] bg-[#FBF8F3] max-sm:h-[400px]'>
-        <div className=' bg-[#FBF8F3] h-28 w-28 flex justify-center items-center mx-auto rounded-full -mt-10'>
+          <div className=' bg-[#FBF8F3] h-28 w-28 flex justify-center items-center mx-auto rounded-full -mt-10'>
             <img src={Logo} className='w-14 h-14 -mt-4 object-cover rounded-full' />
-        </div>
+          </div>
           <h1 className='text-[35px] -mt-5 tracking-[7px]'>SHOP</h1>
           <p className='ml-10 mr-10 mt-2 text-[18px]'>Curious what equipment and pantry staples we love? Check out our shop, where we share our go-to and recommend appliances, ingredients, tools, and more!</p>
           <div className='flex justify-center  mx-auto border-2 w-24 mt-5 border-black '>
-          
           </div>
           <button className='flex justify-center  mx-auto items-center mt-5  text-orange-500 max-sm:grid max-sm:grid-cols-1 '>SHOP OUR RECOMMENDATIONS<RiArrowRightLine className='w-8 h-8 ml-5 text-black max-sm:justify-center max-sm:mx-auto ' /></button>
         </div>
@@ -402,26 +377,22 @@ function Cuerpo1() {
       <div className='pl-7 pr-5 xl:pl-[185px] xl:pr-48 max-sm:pl-4 max-sm:pr-4'>
         <div className='grid grid-cols-2 mt-16 max-lg:grid-cols-1 '>
           <div className='bg-red-200  text-center pl-5 max-sm:pl-4 max-sm:pr-4 pr-5 xl:flex xl:gap-5  max-lg:pl-40  max-lg:pr-40 '>
-            
-          <img src={Fondo2} className='h-72 justify-center mx-auto mt-10'/>
-          <div className=' '>
-          <h1 className='text-[35px] tracking-[7px] mb-5 xl:text-[20px] xl:mt-6 max-lg:text-[24px] max-lg:mt-2'>Want More Deliciousness?</h1>
-          <strong className='mt-10 '>Subscribe here and we'll send you an email as new recipes are published  </strong>
-          <p >As a thank you, we'd also love to send you our fan favorites ebook!</p>
-          <form className='mt-5 mb-5'>
-            <input
-              type='email'
-              placeholder={placeholder2}
-              className={`w-full placeholder:tracking-[5px] h-12 placeholder:text-[12px] placeholder:text-[#646664] font-serif font-bold pl-5 outline-none border border-black bg-red-200 `}
-              onClick={handleInputClick2}
-              onBlur={handleInputBlur2}
-            />
-            
-          </form>
-          <button className='w-full bg-white mb-5 h-12 font-bold hover:bg-[#FFB5A3]'>GET MY EBOOK!</button>
-          </div>
-
-
+            <img src={Fondo2} className='h-72 justify-center mx-auto mt-10'/>
+            <div className=' '>
+              <h1 className='text-[35px] tracking-[7px] mb-5 xl:text-[20px] xl:mt-6 max-lg:text-[24px] max-lg:mt-2'>Want More Deliciousness?</h1>
+              <strong className='mt-10 '>Subscribe here and we'll send you an email as new recipes are published  </strong>
+              <p >As a thank you, we'd also love to send you our fan favorites ebook!</p>
+              <form className='mt-5 mb-5'>
+                <input
+                  type='email'
+                  placeholder={placeholder2}
+                  className={`w-full placeholder:tracking-[5px] h-12 placeholder:text-[12px] placeholder:text-[#646664] font-serif font-bold pl-5 outline-none border border-black bg-red-200 `}
+                  onClick={handleInputClick2}
+                  onBlur={handleInputBlur2}
+                />
+              </form>
+              <button className='w-full bg-white mb-5 h-12 font-bold hover:bg-[#FFB5A3]'>GET MY EBOOK!</button>
+            </div>
           </div>
           <div className='pl-12 mt-10 max-lg:pl-1 '>
             <div className='flex tracking-[3px] max-sm:text-[12px] '>
@@ -450,7 +421,6 @@ function Cuerpo1() {
                 </div>
                 <div className='flex justify-center  mx-auto border-2 w-full border-[#D56638] '></div>
               </div>
-
             </div>
           </div>
         </div>
@@ -472,7 +442,6 @@ function Cuerpo1() {
               <strong>Simple Recipes That
               Make You Feel Good</strong>
           </div>
-          
         </div>
         <div className='flex justify-center  mx-auto border-2 w-full border-[#100f0f]  '></div>
         <div className='flex justify-center  mx-auto gap-12 text-[25px] mt-10 max-lg:grid max-lg:grid-cols-1 max-lg:text-center max-lg:gap-5 '>
@@ -492,7 +461,7 @@ function Cuerpo1() {
       <div className='flex justify-center  mx-auto border-[1px]   border-[#A9A9B1] mt-10 w-44  '></div>
       <p className='text-center text-[#A9A9B1] mb-20'>A RAPTIVE PARTNER SITE</p>
     </div>
-    </div>
+  </div>
 
   )
 }

@@ -6,7 +6,6 @@ function Menu({ showMenu }) {
     <div className={`lg:hidden ${showMenu ?  'block' : 'hidden'}`}>
         <div >
           <hr className='border-t-2 border-[#CCB56F]' />
-          
         </div>
         <div className='flex flex-col justify-between gap-4 bg-red-200 p-6'>
             <a href=''>About</a>
